@@ -136,18 +136,35 @@
     /* all games section */
     .all-games-area {
         padding: 1rem 1rem;
+        display: grid;
+        gap: 3px;
+        margin: 1.3rem 0.2rem;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0.3rem 1rem;
+    }
+    .games-icon img {
+        width: 2rem;
+        height: 2rem;
+    }
+    .games-icon h4 {
+        padding-left: 0.2rem;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .games-icon {
+        border: 2px solid #fff;
+        margin: 0.5rem 0.3rem;
     }
 
-    .games-icon {
-        border: 2px solid red;
-        margin: 0.5rem 0.3rem;
+    .games-icon:hover {
+        border-color: #FF42A5;
     }
 
     /* footer section */
 
     .footer-container {
-        height: 480px;
-        padding: 1rem;
+        height: 500px;
+        padding: 2rem 1rem 1rem;
 
     }
 
@@ -172,6 +189,7 @@
 
     .copy-right {
         width: 80%;
+        line-height: 30px;
         text-align: center;
         margin: 0px auto;
     }
@@ -267,5 +285,39 @@
     /* all games section */
     .all-games-area {
         padding: 0px;
+        margin-bottom: 30px;
     }
+
+    /* footer section */
+    .footer-container {
+        height: 480px;
+        padding: 4rem 1rem;
+
+    }
+
+    .footer-page-link {
+        width: 70%;
+        row-gap: 1rem;
+        margin-top: 20px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-social-link {
+        width: 60%;
+        row-gap: 1.2rem;
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .footer-Privacy {
+        width: 90%;
+        row-gap: 1.2rem;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .copy-right {
+        width: 80%;
+        text-align: center;
+        margin: 0px auto;
+    }
+
 }

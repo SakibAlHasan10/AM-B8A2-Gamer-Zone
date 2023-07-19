@@ -292,13 +292,20 @@ body {
 .games-icon {
     display: inline-flex;
     align-items: center;
+    color: #fff;
     justify-content: center;
-    border: 2px solid var(--button-color);
+    border: 2px solid #fff;
     margin: 1.3rem 0.3rem;
     padding: 0.5rem 0.5rem;
     border-radius: 40px;
+    cursor: pointer;
 }
-
+.games-icon:hover h4{
+    color: var(--button-color);
+}
+.games-icon:hover{
+    border-color:  var(--button-color);
+}
 .games-icon img {
     width: 2.8rem;
     height: 2.8rem;
@@ -360,7 +367,7 @@ body {
     font-weight: 600;
 }
 
-.fa-brands {
+.footer-social {
     color: #fff;
 }
 
