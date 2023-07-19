@@ -130,6 +130,14 @@
         text-align: end;
         position: relative;
     }
+    /* all games section */
+    .all-games-area {
+        padding: 1rem 1rem;
+    }
+    .games-icon {
+        border: 2px solid red;
+        margin: 0.5rem 0.3rem;
+    }
 
 
 
@@ -213,5 +221,10 @@
         width: 80%;
         text-align: end;
         position: relative;
+    }
+
+    /* all games section */
+    .all-games-area {
+        padding: 0px;
     }
 }

@@ -242,7 +242,7 @@ body {
 
 .play-content h2 {
     text-align: right;
-    font-size:2.6rem;
+    font-size: 2.6rem;
     font-weight: 700;
     line-height: 3.5rem;
 }
@@ -269,7 +269,8 @@ body {
     height: 450px;
     border-radius: 10px;
 }
-.play-small-img{
+
+.play-small-img {
     width: 180px;
     height: 210px;
     border-radius: 10px;
@@ -277,4 +278,35 @@ body {
     position: absolute;
     left: 0px;
     bottom: -65px;
+}
+
+/* all games section start */
+.all-games-area {
+    padding: 2.5rem 9rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.games-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+    margin: 1.3rem 0.3rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 40px;
+}
+
+.games-icon img {
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
+.games-icon h4 {
+    padding-left: 0.8rem;
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 600;
 }
