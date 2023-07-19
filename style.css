@@ -89,6 +89,7 @@ body {
     align-items: center;
 
 }
+
 .content-background {
     background-image: url("./images/Group\ 14.png");
     background-position: left;
@@ -96,11 +97,11 @@ body {
     background-repeat: no-repeat;
     width: 50%;
     height: 100%;
-    
-}
-.banner-content {
-    padding:3.5rem 3rem 3.5rem 10rem;
 
+}
+
+.banner-content {
+    padding: 3.5rem 3rem 3.5rem 10rem;
 }
 
 .banner-content h2 {
@@ -115,7 +116,20 @@ body {
     font-weight: 800;
     text-transform: uppercase;
     margin: 0.5rem 0rem;
+    background-image: linear-gradient(to bottom, var(--button-color), #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
 }
+
+.full-stop {
+    width: 15px;
+    height: 15px;
+    background-image: linear-gradient(to bottom, var(--button-color), #8758F1 100%);
+    color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+}
+
 
 .banner-content p {
     color: #534C64;
@@ -140,14 +154,17 @@ body {
     text-transform: uppercase;
     border: none;
 }
-.btn1{
+
+.btn1 {
     background-color: var(--button-color);
 }
-.btn2{
+
+.btn2 {
     background-color: var(--button-color-second);
 }
+
 .banner-img {
-    padding-right:10rem;
+    padding-right: 10rem;
     width: 50%;
     margin-left: 20px;
 }
@@ -156,4 +173,41 @@ body {
     width: 100%;
     height: 100%;
 
+}
+
+/* funny video section */
+
+.funny-video-container {
+    padding: 6rem 10rem 5rem;
+    text-align: center;
+}
+
+.funny-video-container h2 {
+    color: #0B0223;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.funny-video-container p {
+    color: var(--second-color);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 1rem 0px;
+}
+
+.funny-video-title {}
+
+.all-funny-video {
+    display: grid;
+    gap: 1.5rem;
+
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.funny-video-card {}
+
+.funny-video-card img {
+    width: 100%;
 }
