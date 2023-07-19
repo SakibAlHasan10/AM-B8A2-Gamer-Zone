@@ -196,18 +196,33 @@ body {
     padding: 1rem 0px;
 }
 
-.funny-video-title {}
+.funny-video-title {
+    background-image: linear-gradient(to bottom,#F948B2 0%,#8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
 
 .all-funny-video {
     display: grid;
     gap: 1.5rem;
-
     grid-template-columns: repeat(4, 1fr);
 
 }
 
-.funny-video-card {}
+.funny-video-card {
+}
 
 .funny-video-card img {
     width: 100%;
+    border: 4px solid var(--button-color);
+    border-radius: 15px;
+}
+
+
+.funny-video-card p{
+    color: var(--second-color);
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    text-align: left;
 }

@@ -75,6 +75,13 @@
         font-size: 5rem;
     }
 
+    /* funny video section */
+    .all-funny-video {
+        gap: 1.5rem;
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+
 
 
 
