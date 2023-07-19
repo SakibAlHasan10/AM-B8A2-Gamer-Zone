@@ -178,7 +178,7 @@ body {
 /* funny video section */
 
 .funny-video-container {
-    padding: 6rem 10rem 3rem;
+    padding: 4rem 10rem 3rem;
     text-align: center;
 }
 
@@ -270,11 +270,11 @@ body {
     border-radius: 10px;
 }
 .play-small-img{
-    width: 200px;
-    height: 230px;
+    width: 180px;
+    height: 210px;
     border-radius: 10px;
     text-align: start;
     position: absolute;
     left: 0px;
-    bottom: -60px;
+    bottom: -65px;
 }

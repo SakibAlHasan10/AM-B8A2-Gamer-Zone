@@ -77,7 +77,7 @@
 
     /* funny video section */
     .funny-video-container {
-        padding: 6rem 2rem 5rem;
+        padding: 6rem 2rem 2rem;
         text-align: center;
     }
 
@@ -102,7 +102,34 @@
         text-align: center;
     }
 
+    /* play section start */
+    .play-container {
+        flex-direction: column;
+        padding: 0px 2rem;
+        text-align: center;
+        margin-bottom: 100px;
+    }
 
+    .play-content {
+        width: 90%;
+        text-align: center;
+        padding-right: 0rem;
+    }
+    .play-content h2{
+        text-align: center;
+    }
+    .play-content p{
+        text-align: center;
+        font-size: 16px;
+        display: inline-block;
+        margin: 1rem 0rem 3rem;
+    }
+
+    .play-images {
+        width: 100%;
+        text-align: end;
+        position: relative;
+    }
 
 
 
@@ -161,5 +188,30 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-
+    /* play section start */
+    .play-container {
+        flex-direction: column;
+        padding: 0px 2rem;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .play-content {
+        width: 80%;
+        text-align: center;
+        padding-right: 0rem;
+    }
+    .play-content h2{
+        text-align: center;
+    }
+    .play-content p{
+        text-align: center;
+        font-size: 18px;
+        display: block;
+        margin: 1rem 0rem 3rem;
+    }
+    .play-images {
+        width: 80%;
+        text-align: end;
+        position: relative;
+    }
 }
