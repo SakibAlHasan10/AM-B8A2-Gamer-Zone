@@ -293,7 +293,7 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid red;
+    border: 2px solid var(--button-color);
     margin: 1.3rem 0.3rem;
     padding: 0.5rem 0.5rem;
     border-radius: 40px;
@@ -309,4 +309,76 @@ body {
     color: var(--primary-color);
     font-size: 1rem;
     font-weight: 600;
+}
+
+/* footer section start */
+.footer-container {
+    height: 450px;
+    background-color: #0B0223;
+    padding: 6rem;
+
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-logo img {
+    width: 3.5rem;
+    height: 1.8rem;
+}
+
+.footer-logo h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 0.6rem;
+    color: #FFF;
+}
+
+.footer-page-link {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 70%;
+    display: grid;
+    margin: 40px auto;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.footer-social-link {
+    width: 50%;
+    display: grid;
+    margin: 20px auto;
+    text-align: center;
+    grid-template-columns: repeat(6, 1fr);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.fa-brands {
+    color: #fff;
+}
+
+.footer-Privacy {
+    width: 60%;
+    display: grid;
+    margin: 40px auto;
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    color: #bab6b6;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.copy-right {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
 }

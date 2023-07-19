@@ -115,10 +115,12 @@
         text-align: center;
         padding-right: 0rem;
     }
-    .play-content h2{
+
+    .play-content h2 {
         text-align: center;
     }
-    .play-content p{
+
+    .play-content p {
         text-align: center;
         font-size: 16px;
         display: inline-block;
@@ -130,13 +132,48 @@
         text-align: end;
         position: relative;
     }
+
     /* all games section */
     .all-games-area {
         padding: 1rem 1rem;
     }
+
     .games-icon {
         border: 2px solid red;
         margin: 0.5rem 0.3rem;
+    }
+
+    /* footer section */
+
+    .footer-container {
+        height: 480px;
+        padding: 1rem;
+
+    }
+
+    .footer-page-link {
+        width: 90%;
+        row-gap: 1rem;
+        margin-top: 20px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-social-link {
+        width: 60%;
+        row-gap: 1.2rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-Privacy {
+        width: 90%;
+        row-gap: 1.2rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .copy-right {
+        width: 80%;
+        text-align: center;
+        margin: 0px auto;
     }
 
 
@@ -203,20 +240,24 @@
         text-align: center;
         margin-bottom: 100px;
     }
+
     .play-content {
         width: 80%;
         text-align: center;
         padding-right: 0rem;
     }
-    .play-content h2{
+
+    .play-content h2 {
         text-align: center;
     }
-    .play-content p{
+
+    .play-content p {
         text-align: center;
         font-size: 18px;
         display: block;
         margin: 1rem 0rem 3rem;
     }
+
     .play-images {
         width: 80%;
         text-align: end;
