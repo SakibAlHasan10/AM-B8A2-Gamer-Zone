@@ -178,7 +178,7 @@ body {
 /* funny video section */
 
 .funny-video-container {
-    padding: 6rem 10rem 5rem;
+    padding: 6rem 10rem 3rem;
     text-align: center;
 }
 
@@ -198,7 +198,7 @@ body {
 }
 
 .funny-video-title {
-    background-image: linear-gradient(to bottom,#F948B2 0%,#8758F1 100%);
+    background-image: linear-gradient(to bottom, #F948B2 0%, #8758F1 100%);
     color: transparent;
     -webkit-background-clip: text;
 }
@@ -210,8 +210,6 @@ body {
 
 }
 
-
-
 .funny-video-card img {
     width: 100%;
     border: 4px solid var(--button-color);
@@ -219,10 +217,64 @@ body {
 }
 
 
-.funny-video-card p{
+.funny-video-card p {
     color: var(--second-color);
     font-size: 0.9rem;
     font-weight: 500;
     line-height: 1.5rem;
     text-align: left;
+}
+
+/* Play section start */
+.play-container {
+    display: flex;
+    padding: 0px 10rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.play-content {
+    width: 50%;
+    text-align: right;
+    padding-right: 5rem;
+}
+
+.play-content h2 {
+    text-align: right;
+    font-size:2.6rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+}
+
+.play-content-title {
+    color: var(--button-color);
+}
+
+.play-content p {
+    color: var(--second-color);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.play-images {
+    width: 50%;
+    text-align: end;
+    position: relative;
+}
+
+.play-big-img {
+    width: 80%;
+    height: 450px;
+    border-radius: 10px;
+}
+.play-small-img{
+    width: 200px;
+    height: 230px;
+    border-radius: 10px;
+    text-align: start;
+    position: absolute;
+    left: 0px;
+    bottom: -60px;
 }

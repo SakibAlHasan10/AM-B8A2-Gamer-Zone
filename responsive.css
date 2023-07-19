@@ -80,21 +80,25 @@
         padding: 6rem 2rem 5rem;
         text-align: center;
     }
+
     .all-funny-video {
         gap: 1.5rem;
         grid-template-columns: repeat(1, 1fr);
     }
+
     .funny-video-container h2 {
         font-size: 2rem;
     }
-    
+
     .funny-video-container p {
         font-size: 1rem;
     }
+
     .funny-video-card img {
         border-radius: 1.5rem;
     }
-    .funny-video-card p{
+
+    .funny-video-card p {
         text-align: center;
     }
 
@@ -145,11 +149,13 @@
         width: 90%;
         margin: 0px auto;
     }
+
     /* funny video section */
     .funny-video-container {
         padding: 6rem 7rem 5rem;
         text-align: center;
     }
+
     .all-funny-video {
         gap: 1.5rem;
         grid-template-columns: repeat(2, 1fr);
