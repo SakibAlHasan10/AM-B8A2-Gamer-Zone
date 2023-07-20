@@ -98,6 +98,16 @@
         text-align: center;
     }
 
+    .play-button img {
+        top: 35%;
+        right: 40%;
+    }
+    
+    .play-button h3 {
+        top: 47%;
+        right: 33%;
+    }
+
     /* play section start */
     .play-container {
         flex-direction: column;
