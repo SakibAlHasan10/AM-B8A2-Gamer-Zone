@@ -233,13 +233,14 @@ body {
     position: absolute;
     background-color: #fff;
     border-radius: 50%;
-    top: 25%;
+    cursor: pointer;
+    top: 35%;
     right: 40%;
 }
 
 .play-button h3 {
     position: absolute;
-    top: 40%;
+    top: 55%;
     font-weight: 700;
     color: #FF42A5;
     right: 30%;
@@ -395,17 +396,19 @@ body {
     margin: 20px auto;
     text-align: center;
     grid-template-columns: repeat(6, 1fr);
-    font-size: 30px;
-    font-weight: 600;
+    
 }
 
 .footer-social {
     color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 .footer-Privacy {
     width: 60%;
-    display: grid;
+    display: flex;
+    gap: 2rem;
     margin: 40px auto;
     text-align: center;
     justify-content: center;
